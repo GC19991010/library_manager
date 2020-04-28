@@ -11,17 +11,17 @@ public class Book {
 		this.name = name;
 	}
 	public String getId() {
-		return id;
+		return id;//返回id
 	}
 	public void setId(String id) {
-		this.id = id;
+		this.id = id;//id赋值
 	}
 	public String getName() {
 		return name;
 		/*返回用户姓名*/
 	}
 	public void setName(String name) {
-		this.name = name;
+		this.name = name;//姓名赋值
 	}
 	public int getFlag() {
 		return flag;
